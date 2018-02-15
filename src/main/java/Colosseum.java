@@ -72,8 +72,13 @@ public class Colosseum {
      *         Implement this function.
      */
     public static Pokemon buildPokemon() {
-        Pokemon tempPokemon = new Pokemon();
-        return tempPokemon;
+        Pokemon Dolphin = new Pokemon();
+        Scanner myScan = new Scanner (System.in);
+        int a = myScan.nextInt();
+        String s = myScan.nextLine();
+
+
+        return Dolphin;
     }
 
     /**
